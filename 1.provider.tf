@@ -11,10 +11,10 @@ terraform {
     }
   }
   backend "s3" {
-    bucket         = "workspacesbucket01"
-    key            = "Ansible.tfstate"
-    region         = "us-east-1"
+    bucket = "nikhil78699999"
+    key    = "Ansible.tfstate"
+    region = "us-east-1"
     # dynamodb_table = "-terraform-locks"
-    encrypt        = true
+    encrypt = true
   }
 }
